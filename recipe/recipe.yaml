@@ -1,6 +1,6 @@
 context:
   name: supervisor-pydantic
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/supervisor-pydantic/supervisor_pydantic-${{ version }}.tar.gz
-  sha256: 1a981f7a5702c509a305b343938fd6f7ea6fcb60dd6f8c24e385234a8bc027bd
+  sha256: d50083715ef1692d5223889d02906d087a7c76732f3ef4f0c9f388a4dc4f74a6
 
 build:
   number: 0

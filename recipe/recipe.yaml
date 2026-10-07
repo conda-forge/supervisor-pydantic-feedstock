@@ -1,7 +1,6 @@
 context:
   name: supervisor-pydantic
   version: "1.5.1"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}

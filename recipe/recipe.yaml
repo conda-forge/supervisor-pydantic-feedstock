@@ -1,6 +1,6 @@
 context:
   name: supervisor-pydantic
-  version: "1.5.1"
+  version: "1.5.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/supervisor-pydantic/supervisor_pydantic-${{ version }}.tar.gz
-  sha256: 037daa649c6a58a2d9d15e0b731a4904baa21cf72e4a0cce8b6f9c2796cb3965
+  sha256: 74fc05c26c74d09db6a756e70f04067a116555ad0e06a70af56e1d56507471e7
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - jinja2
     - omegaconf
     - pydantic >=2
+    - python-dateutil
     - rich
     - typer
 

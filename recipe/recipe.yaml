@@ -27,6 +27,7 @@ requirements:
     - jinja2
     - omegaconf
     - pydantic >=2
+    - python-dateutil
     - rich
     - typer
 
